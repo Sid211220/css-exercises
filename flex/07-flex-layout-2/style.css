@@ -27,3 +27,16 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+.main {
+  display: flex;
+  flex-direction: column;
+  
+  height: 100vh;
+}
+.mid {
+  display: flex;
+  flex: 1;
+}
+.sidebar {
+  flex-basis: 300px;
+}
